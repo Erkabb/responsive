@@ -14,12 +14,13 @@
   flex-direction: column;
   align-items: center;
   font-family: sans-serif;
+  background-blend-mode:darken;
 }
 .content {
   width: 100%;
   height: 630px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 90%);
-  background-blend-mode: saturation;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+
 }
 .nav_bar {
   position: absolute;
