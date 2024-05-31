@@ -368,3 +368,14 @@ body {
   border-bottom: 1px solid blue;
   color: blue;
 }
+.linknews {
+  display: grid;
+  grid-template-columns: repeat(4, 264px);
+  gap: 40px;
+}
+.link1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  grid-column: 2 span;
+}
