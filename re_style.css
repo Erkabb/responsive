@@ -382,3 +382,7 @@ a:link {
   top: 68.48%;
   bottom: 11.96%;
 }
+.linknews {
+  display: grid;
+  grid-template-columns: 550px 264px 264px;
+}
