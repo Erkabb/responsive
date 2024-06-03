@@ -533,14 +533,22 @@ body {
   background-color: black;
   margin-top: 50px;
 }
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 .first-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 50px;
   width: 466px;
   height: 400px;
-  gap: 30px;
+  
+  
+  
 }
+
 .contact a {
   width: 343px;
   height: 110px;
@@ -553,12 +561,16 @@ body {
   background-position: 50% 50%;
   background-size: cover;
   font-size: 19px;
+  text-decoration: none;
   transition: all 0.2s ease-in-out;
+
 }
 
 .contact ul {
+
   list-style: none;
   text-align: start;
+  overflow: hidden;
   line-height: 25px;
   color: #fff;
 }
@@ -575,6 +587,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.arrow:hover {
+  background-color: blue;
+}
 .applinks {
   width: 300px;
   height: 45px;
@@ -587,4 +602,22 @@ body {
   width: 144px;
   height: 45px;
   border-radius: 15px;
+}
+.second-footer {
+  width: 507px;
+  height: 400px;
+  display: flex;
+  gap: 40px;
+}
+.contact-bar ul {
+  width: 100%;
+  height: 22px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contact-bar li {
+  float: left;
 }
