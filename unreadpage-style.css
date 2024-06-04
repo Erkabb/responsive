@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav_bar {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  border-bottom: 0.5px solid #c8c5c5;
+}
+.search-section {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.search-section img {
+  padding-top: 5px;
+}
+.search-section span {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav_bar input {
+  width: 120px;
+  height: 30px;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: gray;
+}
+.news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.6px;
+  color: #094786;
+  gap: 15px;
+  padding-left: 200px;
+}
+.next-news {
+  color: gray;
+}
+.news-time {
+  width: 141px;
+  height: 35px;
+  background-color: #76737380;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.social_links {
+  width: 109px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-content {
+  width: 1186px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 200px;
+  letter-spacing: 0.03rem;
+}
+.header {
+  font-size: 12.6px;
+  color: #969696;
+  padding-bottom: 30px;
+}
+.header span {
+  color: #094786;
+}
+h1 {
+  width: 1000px;
+  font-size: 32.4px;
+  padding-bottom: 60px;
+  font-family: "SF Display", sans-serif;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  gap: 70px;
+}
+.editor {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.editor > div {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  font-size: 13.6px;
+}
+.editors-photo {
+  width: 36px;
+  height: 36px;
+  background-image: url(https://unread.today/files/profile/ab44cbc261a2708ec974cc0724bdfa09.jpeg);
+  background-position: center;
+  background-size: cover;
+  border: 2px double #969696;
+  border-radius: 18px;
+}
+.editors-info ul {
+  list-style: none;
+  color: #000;
+  line-height: 20px;
+}
+.editors-info ul span {
+  color: #969696;
+}
+.photographer {
+  border-top: 1px solid #d2cece;
+  width: 100px;
+  padding-top: 30px;
+}
+.description {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

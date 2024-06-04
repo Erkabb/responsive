@@ -24,6 +24,7 @@ body {
   font-family: sans-serif;
   background-blend-mode: darken;
 }
+
 .content {
   width: 100%;
   height: 630px;
@@ -93,6 +94,9 @@ body {
   font-family: sans-serif;
   gap: 45px;
 }
+.todays-news a {
+  text-decoration: none;
+}
 .news-img {
   width: 400px;
   height: 400px;
@@ -100,6 +104,11 @@ body {
   background-position: center;
   background-size: cover;
   border-radius: 15px;
+  transition: all 0.1s ease-in;
+}
+.news-img:hover {
+  width: 410px;
+  height: 410px;
 }
 .text {
   width: 300px;
@@ -148,6 +157,7 @@ body {
   list-style: none;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.6px;
 }
 .authors-info span {
   color: gray;
@@ -249,11 +259,21 @@ body {
   width: 740px;
   height: 346px;
   margin-right: 400px;
+  transition: all 0.2s ease-in;
+}
+.bside-news1:hover {
+  width: 760px;
+  height: 366px;
 }
 .bside-news2 {
   width: 740px;
   height: 346px;
   margin-left: 400px;
+  transition: all 0.2s ease-in;
+}
+.bside-news2:hover {
+  width: 760px;
+  height: 366px;
 }
 .authorb {
   display: flex;
@@ -345,6 +365,7 @@ body {
   width: 380px;
   height: 80px;
   font-size: 22px;
+  padding-left: 16px;
 }
 .content-pic {
   width: 135px;
@@ -392,6 +413,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
 }
+
 .linknews > div > img {
   width: 100%;
   height: 100%;
@@ -433,6 +455,7 @@ body {
   border-radius: 15px;
   grid-column: 2 span;
 }
+
 .link2 {
   background-image: url(https://unread.today/files/ab36d712-71ff-4ad9-896e-6ebb29ee892b/15b480dde130301ccfcb83cc83796577.png);
   background-position: center;
@@ -527,8 +550,9 @@ body {
 }
 .footer {
   width: 100%;
-  height: 800px;
+  height: 650px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   background-color: black;
   margin-top: 50px;
@@ -537,6 +561,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 80px;
 }
 .first-section {
   display: flex;
@@ -544,11 +569,7 @@ body {
   gap: 50px;
   width: 466px;
   height: 400px;
-  
-  
-  
 }
-
 .contact a {
   width: 343px;
   height: 110px;
@@ -563,11 +584,9 @@ body {
   font-size: 19px;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
-
 }
 
 .contact ul {
-
   list-style: none;
   text-align: start;
   overflow: hidden;
@@ -590,13 +609,16 @@ body {
 .arrow:hover {
   background-color: blue;
 }
+.contact a:hover {
+  width: 353px;
+  height: 130px;
+}
 .applinks {
   width: 300px;
   height: 45px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  gap: 20px;
+  justify-content: space-between;
 }
 .links a {
   width: 144px;
@@ -607,17 +629,70 @@ body {
   width: 507px;
   height: 400px;
   display: flex;
+  flex-direction: column;
   gap: 40px;
 }
-.contact-bar ul {
+.contact-bar {
   width: 100%;
   height: 22px;
-  list-style: none;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-    
+}
+.contact-bar ul {
+  list-style: none;
+
+  overflow: hidden;
 }
 .contact-bar li {
   float: left;
+}
+.contact-bar ul a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+.copyright {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+.info {
+  width: 625px;
+  height: 265px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.corner {
+  display: flex;
+  width: 208px;
+  height: 265px;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.6px;
+  color: #0078f6;
+  letter-spacing: 0.03rem;
+}
+h2 {
+  padding-bottom: 35px;
+}
+.corner a {
+  text-decoration: none;
+  color: gray;
+  line-height: 30px;
+}
+.nocorner {
+  padding-top: 58px;
+}
+.corner a:hover {
+  color: #ffffff;
+}
+.social-links {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 80px;
 }
