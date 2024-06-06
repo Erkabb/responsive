@@ -26,10 +26,14 @@ body {
 .search-section {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
 }
-.search-section img {
-  padding-top: 5px;
+.img-logo {
+  width: 134.8px;
+  height: 18px;
+  background-image: url(https://unread.today/files/site_meta/7a79e9c5823fc14cfd05cde079d0fb49.png);
+  background-position: center;
+  background-size: cover;
 }
 .search-section span {
   padding-left: 20px;
