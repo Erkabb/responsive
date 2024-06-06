@@ -8,8 +8,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+ 
 }
 .main-content {
   width: 100%;
@@ -986,5 +985,77 @@ h2 {
     width: 177px;
     height: 262px;
     font-size: 10px;
+  }
+  .bside-news1 {
+    width: 604px;
+    height: 250px;
+    margin-right: 200px;
+    transition: all 0.2s ease-in;
+  }
+  .bside-news1:hover {
+    width: 630px;
+    height: 280px;
+  }
+  .bside-news2 {
+    width: 604px;
+    height: 250px;
+    margin-left: 200px;
+    transition: all 0.2s ease-in;
+  }
+  .bside-news2:hover {
+    width: 630px;
+    height: 280px;
+  }
+  .main-new {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 40px;
+  }
+  .linknews {
+    display: grid;
+    grid-template-columns: repeat(2, 174px);
+    grid-template-rows: 213px 178px;
+    gap: 15px;
+  }
+  .link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .linknews2 {
+    display: grid;
+    grid-template-columns: repeat(2, 174px);
+    grid-template-rows: 179px 213px;
+    gap: 15px;
+  }
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 312px;
+    height: 489px;
+  }
+  .second-footer {
+    width: 468px;
+    height: 489px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .contact a {
+    width: 287px;
+    height: 112px;
+    font-size: 15px;
+  
+  }
+  .info {
+    width: 468px;
+    height: 265px;
+   
+    gap: 10px;
+  }
+  .social-links {
+    padding-top: 20px;
   }
 }
