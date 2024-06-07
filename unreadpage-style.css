@@ -383,7 +383,6 @@ button:hover {
   background-image: url(https://unread.today/img/btn-black.png);
   background-position: 50% 50%;
   background-size: cover;
-  font-size: 19px;
   text-decoration: none;
   transition: left 0.2s ease-in;
 }
@@ -394,9 +393,10 @@ button:hover {
   overflow: hidden;
   line-height: 25px;
   color: #fff;
+  font-size: 15px;
 }
 .contact span {
-  font: 14px;
+  font: 12px;
   color: grey;
 }
 .arrow {
