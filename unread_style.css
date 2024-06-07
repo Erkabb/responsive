@@ -85,7 +85,7 @@ body {
   text-align: center;
   padding: 10px 15px;
   border-radius: 20px;
-  box-shadow: 4px 4px 50px -4px rgba(209, 209, 209, 0.6);
+  box-shadow: 4px 4px 50px -4px rgba(209, 209, 209, 1);
   opacity: 1;
 }
 .dott {
@@ -979,7 +979,7 @@ h2 {
     margin-top: auto;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1223px) {
   .nav_bar {
     position: absolute;
     width: 100%;
