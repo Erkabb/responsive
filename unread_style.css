@@ -934,6 +934,14 @@ h2 {
     height: 45px;
     border-radius: 15px;
   }
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
+    height: 400px;
+    margin-left: 20px;
+  }
   .second-footer {
     width: 100%;
     height: auto;
@@ -941,13 +949,7 @@ h2 {
     flex-direction: column;
     gap: 40px;
     margin-top: 80px;
-  }
-  .first-section {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    width: 100%;
-    height: 400px;
+    padding-left: 20px;
   }
 
   .contact-bar {
@@ -956,6 +958,9 @@ h2 {
     text-decoration: none;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+  }
+  .nocorner {
+    padding-top: 30px;
   }
   .info {
     width: 80%;
