@@ -86,7 +86,7 @@ body {
   padding: 10px 15px;
   border-radius: 20px;
   box-shadow: 4px 4px 50px -4px rgba(209, 209, 209, 0.6);
-  background: transparent;
+  opacity: 1;
 }
 .dott {
   animation-name: color;
@@ -981,9 +981,11 @@ h2 {
   .social_links {
     display: none;
   }
+
   .todays-news {
     width: 100%;
-    margin-left: 70px;
+    margin-left: 0;
+    padding-left: 50px;
   }
   .newsfeed {
     width: 100%;
